@@ -1,0 +1,117 @@
+*{margin:0;padding:0;}
+.clear{clear:both;}
+body{
+	background:url("../images/bg.jpg") no-repeat;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+.head_title{
+	width:800px;
+	text-align:center;
+	font-family:"黑体";
+	font-size:54px;
+	margin:80px auto 40px auto;
+	font-weight:bold;
+	color:#443;
+}
+.body_text{
+	width:40%;
+	margin:0 auto;
+	text-align:center;
+}
+#c{
+	width:400px;
+	margin:0 auto;
+}
+.body_text .hTitle{
+	width:492px;
+	margin:0 auto;
+	text-align:center;
+	color:#221;
+	font-size:20px;
+}
+.body_text #text{
+	width:320px;
+	height:34px;
+	text-indent:6px;
+	margin:10px 0;
+	float:left;
+	border-right:none;
+	border-radius:6px 0 0 6px;
+}
+.body_text .btn{
+	width:60px;
+	height:34px;
+	margin:10px 0;
+	float:left;
+	border-left:none;
+	border-radius:0 6px 6px 0;
+	font-family:"华文彩云";
+	font-size:18px;
+	color:#8B0A50;
+}
+.body_text .imgs{
+	margin:6px auto;
+}
+.body_text .down{
+	width:180px;
+	height:40px;
+	margin:0 auto;
+	background:rgba(238,122,233,0.7);
+	margin-top:12px;
+	border-radius:6px;
+}
+.body_text .down a{
+	text-decoration:none;
+	font-size:26px;
+	font-family:"微软雅黑";
+}
+
+@media screen and (max-width: 980px) { /*当浏览器的可视区小于980px时发生 响应式布局 */
+	.head_title{
+		width:100%;
+		height:5%;
+		font-size:4em;
+	}
+	.body_text{
+		width:100%;
+		height:84%;
+	}
+	.body_text .hTitle{
+		width:100%;
+		height:5%;
+		font-size:1.8em;
+	}
+	.body_text #c{
+		width:100%;
+		height:10%;
+		padding-top:2%;
+	}
+	.body_text #c #text{
+		width:78%;
+		height:100%;
+		font-size:2.8em;
+		text-indent:0.4em;
+		border-radius:0px;
+	}
+	.body_text #c .btn{
+		width:21%;
+		height:100%;
+		font-size:4.4em;
+		border-radius:0px;
+	}
+	.body_text .imgs{
+		width:100%;
+		height:73%;
+		padding-top:4%;
+	}
+	.body_text .down{
+		width:100%;
+		height:10%;
+		background:rgba(0,168,255,1);
+		border-radius:0px;
+	}
+	.body_text .down a{
+		font-size:5em;
+	}
+}
